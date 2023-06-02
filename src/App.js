@@ -1,10 +1,16 @@
 import './App.css';
+import Main from "./Components/Main"
+import { Route, Switch } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Pokemon</h1>
-    </div>
+    <>
+      <Switch>
+        <Route path="/">
+          <Main />
+        </Route>
+      </Switch>
+    </>
   );
 }
 
