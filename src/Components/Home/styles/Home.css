@@ -1,0 +1,16 @@
+.Home-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .Home-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Home-card-link {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  text-decoration: none;
+}

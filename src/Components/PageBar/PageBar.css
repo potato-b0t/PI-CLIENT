@@ -1,0 +1,48 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li:first-child {
+  margin-left: 0;
+}
+
+.pagination li:last-child {
+  margin-right: 0;
+}
+
+.pagination li a {
+  display: inline-block;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pagination li.page-current a {
+  color: blue;
+  border: 2px solid red;
+  border-radius: 20px;
+}
+
+.pagination li a:hover {
+  color: blue;
+  text-decoration: none;
+}
