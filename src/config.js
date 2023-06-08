@@ -1,3 +1,3 @@
 export default {
-    URL: "http://localhost:3001"
+    URL: "https://pi-api-cfaz.onrender.com"
 }
