@@ -6,7 +6,7 @@ const NavBar = (props) => {
   return (
     <div className="nav-bar">
       <a>
-        <Link to="Home">Home</Link>
+        <Link to="/Home">Home</Link>
       </a>
       <SearchBar searchedName={props.name} />
       <a>
